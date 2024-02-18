@@ -15,6 +15,9 @@ class DemoApplicationTests {
     public  String b(){
         return "1";
     }
+    public  String add2(){
+        return "hot-fix";
+    }
     @Test
     void contextLoads() {
     }
