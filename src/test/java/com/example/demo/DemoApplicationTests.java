@@ -19,9 +19,6 @@ class DemoApplicationTests {
     public  String add1(){
         return "master";
     }
-    public  String add2(){
-        return "hot-fix";
-    }
     @Test
     void contextLoads() {
     }
