@@ -15,6 +15,10 @@ class DemoApplicationTests {
     public  String b(){
         return "1";
     }
+
+    public  String add1(){
+        return "master";
+    }
     @Test
     void contextLoads() {
     }
