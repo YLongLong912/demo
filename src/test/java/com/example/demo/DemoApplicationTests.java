@@ -8,6 +8,9 @@ class DemoApplicationTests {
     public static void main(String[] args) {
 
     }
+    public  String a(){
+        return "";
+    }
     @Test
     void contextLoads() {
     }
