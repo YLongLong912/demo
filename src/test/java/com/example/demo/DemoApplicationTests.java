@@ -11,6 +11,10 @@ class DemoApplicationTests {
     public  String a(){
         return "";
     }
+
+    public  String b(){
+        return "1";
+    }
     @Test
     void contextLoads() {
     }
