@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span th:text="${msg}"></span>
+<br>
+<input th:value="${msg}"/>
+<br>
+<span th:text="${#strings.isEmpty(msg)}"></span>
+<br>
+    <span th:if="${msg}">男</span>
+<br>
+<div th:switch="${msg}">
+    <span th:case="ok">yes</span>
+    <span th:case="*">no</span>
+</div>
+</body>
+</html>
